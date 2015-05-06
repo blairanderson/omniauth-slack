@@ -6,7 +6,7 @@ module OmniAuth
 
       option :name, "slack"
 
-      option :authorize_options, [ :scope, :team ]
+      option :authorize_options, [ :scope, :team, :state ]
 
       option :client_options, {
         site: "https://slack.com",
